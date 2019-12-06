@@ -20,10 +20,29 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(
-        child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 5),
-          child: Text(textFiller),
+      body: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Text(textFiller),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: const [
+                  Icon(Icons.book),
+                  Icon(Icons.access_time),
+                  Icon(Icons.add_a_photo),
+                ]),
+            Text(textFiller),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: const [
+                  Icon(Icons.book),
+                  Icon(Icons.access_time),
+                  Icon(Icons.add_a_photo),
+                ]),
+            Text(textFiller),
+          ],
         ),
       ),
     );
