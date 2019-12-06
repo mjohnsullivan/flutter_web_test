@@ -13,6 +13,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  peanut:
+    path: /Users/mattsullivan/Development/src/flutter/official_github_repos/peanut.dart
 
 flutter:
   uses-material-design: true
